@@ -41,6 +41,9 @@
 *.pdfsync
 build/
 
+## Output:
+*.pdf
+
 ## Build tool directories for auxiliary files
 # latexrun
 latex.out/

@@ -60,8 +60,9 @@
 \renewcommand{\itemmarker}{{\small\textbullet}}
 \renewcommand{\ratingmarker}{\faCircle}
 
-%% sample.bib contains your publications
-\addbibresource{sample.bib}
+\usepackage[backend=biber]{biblatex}
+%% cv.bib contains your publications
+\addbibresource{cv.bib}
 
 \begin{document}
 \name{Grey}
@@ -122,9 +123,8 @@ Worked on a multi-institute team to participate in a DARPA-sponsored competition
 Designed and implemented a closed-loop hardware testbed for examining control algorithms on autonomous flying swarms and small-scale model aircraft.
 
 \clearpage
-\cvsection[sidebar-p2]{Publications}
 
-TODO(MXG): Finish this
+\cvsection{Publications}
 
 \nocite{*}
 
