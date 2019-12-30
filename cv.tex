@@ -70,8 +70,8 @@
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
   \location{Singapore}
-  \homepage{https://greyxmike.info/}
-  \github{github.com/mxgrey}
+  \homepage{\href{https://greyxmike.info/}{https://greyxmike.info/}}
+  \github{\href{https://github.com/mxgrey}{@mxgrey}}
   \email{greyxmike@gmail.com}
   \phone{+65 8877-6696}
   \phone{+1 (847) 530-1093}
@@ -123,15 +123,19 @@ Designed and implemented a closed-loop hardware testbed for examining control al
 
 \clearpage
 
-\cvsection{Publications}
+\cvsection[sidebar-p2]{Publications}
 
 \nocite{*}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+%% Currently I do not have any books, so we'll leave out this sub-section until I do
+%\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+%\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Doctoral Thesis}},type=thesis]
 
 \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}},type=article]
+\printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Article}},type=article]
 
 \divider
 
@@ -144,5 +148,17 @@ Designed and implemented a closed-loop hardware testbed for examining control al
 %% main column.
 % \addnextpagesidebar[-1ex]{page3sidebar}
 
+%% Additional content to consider adding:
+%% Invited Speaker:
+%% - Humanoid Robotics: Ongoing CHallenges and Future Prospects. Swarthmore College, March 2017.
+%% - DART 5.0. An overview of the features of DART v5.0 and future directions for ongoing development. Carnegie Mellon University, May 2015.
+%% - ROS-Industrial Asia-Pacific Workshop 2018
+%% - ROS-Industrial Asia-Pacific Workshop 2019
+%% - A*Star 2019
+%%
+%% Conference reviewer:
+%% - Robotics: Science and Systems Conference
+%% - IEEE-RAS Int’l Conference on Humanoid Robotics (Humanoids)
+%% - IEEE/RSJ Int’l Conference on Intelligent Robots and Systems (IROS)
 
 \end{document}
